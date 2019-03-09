@@ -1,0 +1,48 @@
+{
+  "name": "ixi",
+  "version": "0.0.0",
+  "description": "structure selection parser.",
+  "author": "Yahtnif <yahtnif@gmail.com>",
+  "main": "index.js",
+  "repository": "yahtnif/ixi",
+  "homepage": "https://github.com/yahtnif/ixi",
+  "scripts": {
+    "test": "lint-staged && jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write --single-quote",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && jest"
+    }
+  },
+  "keywords": [
+    "ixi",
+    "selection",
+    "parser",
+    "html",
+    "cheerio"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "component-type": "^1.2.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "jest": "^24.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4"
+  }
+}
