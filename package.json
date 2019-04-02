@@ -33,7 +33,7 @@
   "files": [
     "index.js"
   ],
-  "license": "MIT",
+  "license": "996ICU",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "component-type": "^1.2.1",
