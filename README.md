@@ -1,6 +1,6 @@
 <div align="center">
 	<div>
-		<img width="300" height="150" src="https://github.com/yahtnif/static/raw/master/logo/ixi.svg?sanitize=true" alt="ixi">
+		<img width="300" height="212" src="https://github.com/yahtnif/static/raw/master/logo/ixi.svg?sanitize=true" alt="ixi">
 	</div>
 </div>
 
