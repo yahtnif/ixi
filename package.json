@@ -1,6 +1,6 @@
 {
   "name": "ixi",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "structure selection parser.",
   "author": "Yahtnif <yahtnif@gmail.com>",
   "main": "index.js",
